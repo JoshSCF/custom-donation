@@ -13,25 +13,25 @@ local ns = {500000,100000,50000,20000,10000,6000,5000,2000,1000,500,200,100,50,2
 local ns1 = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
 
 local ns2 = {
-	[500000]=90753051,
-	[100000]=90753035,
-	[50000]=90753020,
-	[20000]=90752996,
-	[10000]=90752352,
-	[6000]=90752333,
-	[5000]=90752308,
-	[2000]=90751479,
-	[1000]=90751372,
-	[500]=90751344,
-	[200]=90751322,
-	[100]=90751297,
-	[50]=90751219,
-	[20]=90751193,
-	[10]=90751163,
-	[5]=90751122,
-	[2]=90751102,
-	[1]=90750843
-}
+	[500000]=[[insertdevprodid]],
+	[100000]=[[insertdevprodid]],
+	[50000]=[[insertdevprodid]],
+	[20000]=[[insertdevprodid]],
+	[10000]=[[insertdevprodid]],
+	[6000]=[[insertdevprodid]],
+	[5000]=[[insertdevprodid]],
+	[2000]=[[insertdevprodid]],
+	[1000]=[[insertdevprodid]],
+	[500]=[[insertdevprodid]],
+	[200]=[[insertdevprodid]],
+	[100]=[[insertdevprodid]],
+	[50]=[[insertdevprodid]],
+	[20]=[[insertdevprodid]],
+	[10]=[[insertdevprodid]],
+	[5]=[[insertdevprodid]],
+	[2]=[[insertdevprodid]],
+	[1]=[[insertdevprodid]]
+} -- dev prod. ids should be *numbers*, not strings
 
 input.Changed:Connect(function()
 	conf = tonumber(input.Text) ~= nil
